@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e1e3f, #3a2c63);
+  color: #f0f0f0;
+  scroll-behavior: smooth;
+}
+
+header.hero {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+nav.scrolled {
+  background-color:rgb(91, 2, 91); /* New color after scroll */
+}
+
+nav h1 {
+  margin: 0;
+  flex-shrink: 0;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.hero-content {
+  margin-top: 20px;
+}
+
+.profile-photo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2px;
+  border: 3px solid #fff;
+  transition: background 0.3s, transform 0.2s;
+  
+}
+
+.profile-photo:hover {
+transform: scale(1.05);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #1e1e3f;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.project {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+#contact-form button {
+  padding: 10px;
+  background-color: #ffd700;
+  color: #1e1e3f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+h2{
+  font-family: 'cinzel decorative';
+  font-size: 50px;
+  margin-bottom: 0%;
+}
+p{
+  font-family: "poppins";
+}
+nav{
+  font-family: "underdog";
+  font-size: 20px;
+}
+.about{
+  text-align: justify;
+}
+
+
